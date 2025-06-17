@@ -10,8 +10,8 @@ class CliTool < Formula
   depends_on "python@3.11"
 
   resource "kaalin" do
-    url "https://files.pythonhosted.org/packages/2e/7d/kaalin-3.1.0.tar.gz"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    url "https://github.com/dontbeidle/kaalin-python/archive/refs/tags/v3.1.0.tar.gz"
+    sha256 "e0b8b500eb1ec3d4406e83238b99c6f0a67c7d94192ea25aaf53f37236466b31"
   end
 
   def install
