@@ -4,7 +4,7 @@ class Kaalin < Formula
   desc "Latin-to-Cyrillic converter CLI for the Karakalpak language"
   homepage "https://github.com/dontbeidle/kaalin-homebrew"
   url "https://github.com/dontbeidle/kaalin-homebrew/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "a33d7842734e314d31788d22f611839d2bdb6ee40a491c2f08822e4b5fb02fd8"
+  sha256 "1ba115565a47e228f6c40feec4e5d8ee55728edaf6bc278eea71cd9f8dbe7601"
   license "MIT"
   
   depends_on "python@3.9"
