@@ -9,6 +9,11 @@ class Kaalin < Formula
   
   depends_on "python@3.11"
   
+  resource "kaalin" do
+    url "https://files.pythonhosted.org/packages/source/k/kaalin/kaalin-3.1.0.tar.gz"
+    sha256 "4183fe43a90693a44cc846c667248aac50a50a86145456fb7ea8d3cf736ea9bf"
+  end
+  
   def install
     virtualenv_install_with_resources
   end
