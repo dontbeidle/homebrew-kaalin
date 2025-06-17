@@ -7,13 +7,14 @@ class Kaalin < Formula
   sha256 "1ba115565a47e228f6c40feec4e5d8ee55728edaf6bc278eea71cd9f8dbe7601"
   license "MIT"
   
-  depends_on "python@3.9"
+  depends_on "python@3.11"
   
   def install
     virtualenv_install_with_resources
   end
   
   test do
-    system bin/"kaalin", "--help"
+    system bin/"cyr2lat", "--help"
+    system bin/"lat2cyr", "--help"
   end
 end
