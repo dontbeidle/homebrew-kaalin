@@ -16,6 +16,8 @@ class Kaalin < Formula
   
   def install
     virtualenv_install_with_resources
+    
+    bin.install_symlink Dir["#{libexec}/bin/*"]
   end
   
   test do
